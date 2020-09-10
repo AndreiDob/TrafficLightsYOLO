@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/good_models/imagePaths_overfit.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/good_models/imagePaths_overfit_big_training_se.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/network_files/imagePaths.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/network_files/imagePaths.txt" charset="windows-1252" />
+  </component>
+</project>
