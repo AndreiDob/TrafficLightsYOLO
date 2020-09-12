@@ -1,5 +1,6 @@
 
 System requirements
+
 For training the network, the system requires a PC/laptop with a graphic
 card. For testing it does not require as much
 memory, but with more, time performance is improved.
@@ -8,6 +9,7 @@ already-trained network, the system needs to have an Anaconda environment
 that contains the following: Python 3.6, Tensorfow-gpu, Keras, Numpy, Pillow, Opencv and Matplotlib.
 
 Installation
+
  Create Anaconda environment and install Python 3.6, Tensor
 ow-gpu,
 Keras, Numpy, Pillow, Opencv and Matplotlib.
