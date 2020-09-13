@@ -1,3 +1,22 @@
+# YOLO V3 inspired traffic light detection system
+
+This project presents my own implementation of the YOLO system from the ground up. In the beginning it closely followed the description in the publication, but was later modified to better fit the problem of traffic light detection. 
+
+The big YOLO V3 architecture is too resource intensive and lacks in prediction speed. To solve these problems, my contributions were: designing and implementing a new lighter, faster network architecture and improving the current loss function design. Also, I have created a special color selection system for when there is an uncertainty in traffic light classification.
+
+More details can be found in the bachelor degree paper [put link here]
+
+# Results
+
+By the use of the detection and classification capabilities of both YOLO
+and the custom color selector, the system is capable of predicting traffic light
+location and state with an incredibly good precision and in real time.
+The Retinanet-101-500[1] network achieves 53.1 mAP at 11 frames per
+second. The SSD321[2] network achieves 45.4 mAP at 16 frames per second.
+My system is able to achieve 57.2 mAP, while running at 20 frames per
+second, therefore outclassing some of the best state-of-the-art designs both
+in terms of speed and accuracy.
+
 # User manual
 
 ### System requirements
