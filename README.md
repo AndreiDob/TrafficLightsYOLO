@@ -1,10 +1,10 @@
 # YOLO V3 inspired traffic light detection system
 
-This project presents my own implementation of the YOLO system from the ground up. In the beginning it closely followed the description in the publication, but was later modified to better fit the problem of traffic light detection. 
+This project presents my own implementation of the YOLO system from the ground up. The idea was to put the basis of a real-time object-detection framework. In the beginning it closely followed the description in the [publication](https://pjreddie.com/media/files/papers/YOLOv3.pdf), but was later modified to better fit the problem of traffic light detection. 
 
 The big YOLO V3 architecture is too resource intensive and lacks in prediction speed. To solve these problems, my contributions were: designing and implementing a new lighter, faster network architecture and improving the current loss function design. Also, I have created a special color selection system for when there is an uncertainty in traffic light classification.
 
-More details can be found in the bachelor degree paper [put link here]
+**More details can be found in the [bachelor degree paper](BachelorThesis.pdf) that accompanies this project.**
 
 # Results
 
@@ -29,10 +29,10 @@ In order to be able to install and run the training application and the already-
 - Install PyCharm and configure it to use the newly created environment
 
 ### Run the system
-Data preprocessing For preprocessing the data, a user needs to download and unzip the Driveu dataset. Next, the user has to run the preprocess labels.py script found in the preprocessing module.
+For preprocessing the data, a user needs to download and unzip the Driveu dataset. Next, the user has to run the preprocess labels.py script found in the preprocessing module.
 
 This scrip requires the following command-line arguments:
--  min width - Minimum width of the bounding boxes
+- min width - Minimum width of the bounding boxes
 - min height - Minimum height of the bounding boxes
 - label - Location of label file to be used
 - image - Location of the folder where all the image folders are contained
