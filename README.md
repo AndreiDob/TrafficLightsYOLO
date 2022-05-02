@@ -4,7 +4,7 @@ This project presents my own implementation of the YOLO system from the ground u
 
 The big YOLO V3 architecture is too resource intensive and lacks in prediction speed. To solve these problems, my contributions were: designing and implementing a new lighter, faster network architecture and improving the current loss function design. Also, I have created a special color selection system for when there is an uncertainty in traffic light classification.
 
-**More details can be found in the [bachelor degree paper](Bachelor thesis.pdf) that accompanies this project.**
+**More details can be found in the [bachelor degree paper](https://github.com/AndreiDob/TrafficLightsYOLO/blob/master/Bachelor%20thesis.pdf) that accompanies this project.**
 
 # Results
 **The reults can be easily seen in [this video](https://www.youtube.com/watch?v=om7WTm7DbUg)**.
