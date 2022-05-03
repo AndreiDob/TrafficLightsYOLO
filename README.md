@@ -7,7 +7,7 @@ The big YOLO V3 architecture is too resource intensive and lacks in prediction s
 **More details can be found in the [bachelor degree paper](https://github.com/AndreiDob/TrafficLightsYOLO/blob/master/Bachelor%20thesis.pdf) that accompanies this project.**
 
 # Results
-**The reults can be easily seen in [this video](https://www.youtube.com/watch?v=om7WTm7DbUg)**.
+**The reults can be easily seen in [this video](https://youtu.be/OyUZyWHo2SI)**.
 
 By the use of the detection and classification capabilities of both YOLO
 and the custom color selector, the system is capable of predicting traffic light
